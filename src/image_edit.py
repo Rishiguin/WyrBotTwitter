@@ -6,7 +6,7 @@ from pathlib import Path
 import os.path
 
 
-my_img = os.path.join('resources','wyr6.png')
+my_img = f'.\\resources\\wyr6.png'
 fontf = ImageFont.truetype(font=os.path.join("fonts","opensans_bold.ttf"), size=36)
 
 """while True:
@@ -185,7 +185,7 @@ class GetWyrResultImg():
         Image.Image.paste(frame, Image.open(
             Path("resources/wyr_results/result_bar_final.png")), (209, 449))
         frame.save(Path("resources/wyr_results/result_wyr.png"))
-        frame.show()
+        #frame.show()
 
-a=GetWyrResultImg('sfadf  ad  ad dasda','as dasd asd asdf',4545,122)
-a.form_result()
+"""a=GetWyrResultImg('sfadf  ad  ad dasda','as dasd asd asdf',4545,122)
+a.form_result()"""

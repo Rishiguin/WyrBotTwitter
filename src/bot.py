@@ -33,7 +33,7 @@ if __name__ == "__main__":
 
         #POST WYR IMAGE
         wyr_update = bot.update_status_with_media(
-            status='Would you rather', filename=Path('resources\wyr_final.png'))
+            status='Would you rather', filename=Path("resources\wyr_final.png"))
 
         #POST POLL TO WYR IMAGE
         pol1 = "RED" if len(form_wyr_image[0]) > 24 else form_wyr_image[0]
