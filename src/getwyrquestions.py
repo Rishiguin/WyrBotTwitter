@@ -11,7 +11,7 @@ import os
 
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
-#options.binary_location =os.environ.get("GOOGLE_CHROME_BIN")
+options.binary_location =os.environ.get("GOOGLE_CHROME_BIN")
 options.add_argument("--disable-dev-shm-usage")
 driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
 driver.maximize_window()
