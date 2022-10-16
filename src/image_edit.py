@@ -94,7 +94,7 @@ class FormWyr():
         ar2 = self.form_sentences(
             b, image_editable=self.image_editable, boxwidth=self.box_width, font=fontf)
         self.write_sentences(2, ar2)
-        self.frame.save(os.path.join('resources', 'wyr_final.png'))
+        self.frame.save(f'.\resources\wyr_final.png')
 
 
 class GetWyrResultImg():
