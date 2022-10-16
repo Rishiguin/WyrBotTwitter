@@ -37,7 +37,7 @@ if __name__ == "__main__":
 
         #POST POLL TO WYR IMAGE
         pol1 = "RED" if len(form_wyr_image[0]) > 24 else form_wyr_image[0]
-        pol2 = "BLUE" if len(form_wyr_image[0]) > 24 else form_wyr_image[1]
+        pol2 = "BLUE" if len(form_wyr_image[1]) > 24 else form_wyr_image[1]
         print(" (¬‿¬) pols : ",pol1,'  ',pol2)
         wyr_tweet_id = wyr_update.id
         poll_create = client.create_tweet(text="Choose ", in_reply_to_tweet_id=wyr_tweet_id,
