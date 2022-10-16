@@ -6,7 +6,7 @@ from pathlib import Path
 import os.path
 
 
-my_img = f'.\resources\wyr6.png'
+my_img = Path(f'resources\wyr6.png')
 fontf = ImageFont.truetype(font=os.path.join("fonts","opensans_bold.ttf"), size=36)
 
 """while True:
@@ -94,7 +94,7 @@ class FormWyr():
         ar2 = self.form_sentences(
             b, image_editable=self.image_editable, boxwidth=self.box_width, font=fontf)
         self.write_sentences(2, ar2)
-        self.frame.save(f'.\resources\wyr_final.png')
+        self.frame.save(Path(f'resources\wyr_final.png'))
 
 
 class GetWyrResultImg():
@@ -187,5 +187,5 @@ class GetWyrResultImg():
         frame.save(Path("resources/wyr_results/result_wyr.png"))
         #frame.show()
 
-"""a=GetWyrResultImg('sfadf  ad  ad dasda','as dasd asd asdf',4545,122)
-a.form_result()"""
+a=GetWyrResultImg('sfadf  ad  ad dasda','as dasd asd asdf',4545,122)
+a.form_result()
