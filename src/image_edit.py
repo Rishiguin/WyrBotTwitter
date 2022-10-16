@@ -6,7 +6,7 @@ from pathlib import Path
 import os.path
 
 
-my_img = Path(f'resources\wyr6.png')
+my_img = Path('resources/wyr6.png')
 fontf = ImageFont.truetype(font=os.path.join("fonts","opensans_bold.ttf"), size=36)
 
 """while True:
