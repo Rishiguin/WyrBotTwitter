@@ -1,4 +1,7 @@
 # would-you-rather-twitter
 A twitter would you rather bot
 
-![bot on twitter](image_path "wyr_tweet.png")
+Deployed on Replit.
+[@WYR_bot](https://twitter.com/WYRbot_)
+
+![bot on twitter](yr_tweet.png "bot on twitter")
