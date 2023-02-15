@@ -2,6 +2,7 @@
 A twitter would you rather bot
 
 Deployed on Replit.
-[@WYR_bot](https://twitter.com/WYRbot_)
 
-![bot on twitter](yr_tweet.png "bot on twitter")
+Live on twitter : [@WYR_bot](https://twitter.com/WYRbot_) (now deactivated)
+
+![bot on twitter](wyr_tweet.png "bot on twitter")
